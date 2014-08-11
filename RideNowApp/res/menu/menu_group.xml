@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ridenow.activity.SelectGroupActivity" >
+
+    <item
+        android:id="@+id/ic_menu_creategroup"
+        android:orderInCategory="100"
+        android:icon="@drawable/blue_checkmark"
+        android:title="@string/createGroup"
+        android:showAsAction="ifRoom|withText"
+        />
+
+</menu>

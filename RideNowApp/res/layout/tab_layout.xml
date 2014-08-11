@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="@color/tab_bg_color"
+    android:gravity="center"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/searchlayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight=".25"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/searchBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:clickable="true"
+            android:text="@string/search"
+            android:textColor="@drawable/tab_text_bg"
+            android:textSize="@dimen/tab_text_size"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:id="@+id/searchLine"
+            android:layout_alignParentBottom="true"
+            android:background="@color/tab_selected_text_color"
+             android:clickable="true"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ridelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight=".25"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/rideBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:clickable="true"
+            android:text="@string/ride"
+            android:textColor="@drawable/tab_text_bg"
+            android:textSize="@dimen/tab_text_size"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:id="@+id/rideLine"
+            android:layout_alignParentBottom="true"
+            android:background="@color/tab_selected_text_color"
+            android:paddingLeft="20dp"
+             android:clickable="true"
+            android:paddingRight="20dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/profilelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight=".25"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/profileBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:clickable="true"
+            android:text="@string/profile"
+            android:textColor="@drawable/tab_text_bg"
+            android:textSize="@dimen/tab_text_size"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:id="@+id/profileLine"
+            android:layout_alignParentBottom="true"
+            android:background="@color/tab_selected_text_color"
+            android:paddingLeft="20dp"
+             android:clickable="true"
+            android:paddingRight="20dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/updateslayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight=".25"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/updatesBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:clickable="true"
+            android:text="@string/updates"
+            android:textColor="@drawable/tab_text_bg"
+            android:textSize="@dimen/tab_text_size"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="2dp"
+            android:id="@+id/updateLine"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/tab_text_bg"
+            android:clickable="true"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" />
+    </RelativeLayout>
+
+</LinearLayout>

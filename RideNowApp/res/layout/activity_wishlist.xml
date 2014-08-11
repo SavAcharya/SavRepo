@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/base_color_lite"
+    android:padding="@dimen/padding_large"
+    android:gravity="center_horizontal"
+    >
+
+      <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/textBox_hight"
+        android:ems="10" 
+        android:hint="@string/trip_title"
+        android:background="@drawable/textbox_bg"
+        android:layout_margin="@dimen/padding_samll"
+        android:paddingLeft="@dimen/padding_samll"
+        >
+
+        <requestFocus />
+    </EditText>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content" 
+          android:weightSum="2"
+           android:layout_margin="@dimen/padding_samll">
+
+          <Button
+              android:id="@+id/button1"
+              android:layout_width="0dp"
+              android:layout_weight="1"
+              android:layout_height="wrap_content"
+              android:text="@string/trip_start_date" />
+
+          <Button
+              android:id="@+id/button2"
+              android:layout_width="0dp"
+              android:layout_weight="1"
+              android:layout_height="wrap_content"
+              android:text="@string/trip_end_date" />
+
+      </LinearLayout>
+
+      <EditText
+          android:id="@+id/editText2"
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/textBox_hight"
+          android:ems="10" 
+           android:layout_margin="@dimen/padding_samll"
+        android:background="@drawable/textbox_bg"
+        android:paddingLeft="@dimen/padding_samll"
+          android:hint="@string/trip_place"/>
+
+      <EditText
+          android:id="@+id/editText3"
+          android:layout_width="match_parent"
+          android:layout_height="100dp"
+          android:ems="10"
+          android:inputType="textMultiLine" 
+           android:layout_margin="@dimen/padding_samll"
+          android:paddingLeft="@dimen/padding_samll"
+        android:background="@drawable/textbox_bg"
+        
+          android:hint="@string/trip_description"/>
+
+      <EditText
+          android:id="@+id/editText4"
+          android:layout_width="match_parent"
+          android:layout_height="@dimen/textBox_hight"
+          android:ems="10"
+           android:layout_margin="@dimen/padding_samll"
+             android:paddingLeft="@dimen/padding_samll"
+        android:background="@drawable/textbox_bg"
+          android:hint="@string/trip_places_tags" />
+
+      <Button
+          android:id="@+id/button4"
+          android:layout_width="wrap_content"
+          android:layout_height="30dp"
+          android:text="@string/trip_invire_friends" 
+          android:textSize="@dimen/text_small"
+           android:layout_margin="@dimen/padding_samll"/>
+
+      <Button
+          android:id="@+id/button3"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/done" 
+           android:layout_margin="@dimen/padding_samll"/>
+
+</LinearLayout>

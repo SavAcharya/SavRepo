@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center_horizontal"
+    android:background="@color/base_color_lite"
+    android:paddingLeft="@dimen/padding_large"
+    android:paddingRight="@dimen/padding_large"
+    >
+
+    <ImageView
+        
+        android:id="@+id/imageView1"
+        android:layout_width="99dp"
+        android:layout_height="99dp"
+        
+        android:src="@drawable/ride_now_icon"
+        android:layout_marginTop="@dimen/padding_large" />
+    
+    
+
+    <LinearLayout 
+        
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       
+        android:layout_marginLeft="@dimen/padding_large"
+        android:layout_marginRight="@dimen/padding_large"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+        
+        <View 
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@color/base_color_dark"
+        android:layout_marginTop="@dimen/padding_mid"
+        android:layout_marginBottom="@dimen/padding_mid"
+        />
+<LinearLayout 
+    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="bottom"
+    >
+    <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="@dimen/icon_size_mid"
+            android:layout_height="@dimen/icon_size_mid"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+             android:layout_marginTop="@dimen/padding_mid"
+            android:src="@drawable/ic_btn_from" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextFrom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/textBox_hight"
+        android:layout_marginLeft="@dimen/padding_mid"
+        android:background="@drawable/textbox_bg"
+        android:hint="@string/from"
+        android:ems="10" 
+        android:gravity="left|center_vertical"
+        android:paddingLeft="@dimen/padding_samll"/>
+
+      
+    
+</LinearLayout>
+        
+
+       <LinearLayout 
+    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="bottom"
+    >
+    <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="@dimen/icon_size_mid"
+            android:layout_height="@dimen/icon_size_mid"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+             android:layout_marginTop="@dimen/padding_mid"
+            android:src="@drawable/ic_btn_to" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextTo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/textBox_hight"
+        android:layout_marginLeft="@dimen/padding_mid"
+        android:background="@drawable/textbox_bg"
+        android:ems="10" 
+        android:hint="@string/to"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="@dimen/padding_samll">
+
+        <requestFocus />
+    </AutoCompleteTextView>
+    
+</LinearLayout>
+
+       <LinearLayout 
+    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="bottom"
+    >
+    <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="@dimen/icon_size_mid"
+            android:layout_height="@dimen/icon_size_mid"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/padding_mid"
+            android:src="@drawable/ic_btn_date" />
+
+    <Button
+        android:id="@+id/btnDate"
+        android:layout_width="match_parent"
+       android:layout_height="@dimen/textBox_hight"
+        android:layout_marginLeft="@dimen/padding_mid"
+		android:background="@drawable/textbox_bg"
+        android:ems="10" 
+        android:hint="@string/date"
+        android:gravity="left|center_vertical"
+        android:paddingLeft="@dimen/padding_samll"
+        />
+
+        
+    
+</LinearLayout>
+
+       <ImageButton
+           android:layout_width="@dimen/icon_size_mid"
+           android:layout_height="@dimen/icon_size_mid"
+           android:src="@android:drawable/ic_search_category_default" 
+           android:layout_marginTop="@dimen/padding_large"/>
+        
+    </LinearLayout>
+    <LinearLayout 
+        android:id="@+id/layout_search_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginTop="@dimen/padding_mid"
+        android:gravity="center|center_vertical"
+        >
+        <Button android:id="@+id/btn_search_signup"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_up"
+        android:onClick="signup"
+        android:background="@color/base_color_dark"/>
+        
+        <Button android:id="@+id/btn_search_login"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:onClick="signin"
+        android:background="@color/base_color_dark"
+        android:layout_marginLeft="@dimen/padding_mid"
+        />
+        
+        
+    </LinearLayout>
+    
+</LinearLayout>

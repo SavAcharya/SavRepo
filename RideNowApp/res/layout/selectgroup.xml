@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_bg_color" >
+
+    <LinearLayout
+        android:id="@+id/ic_linear___"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true" >
+
+        <ImageView
+            android:id="@+id/ic_imagebutton_selectGroupPics_"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/camera_photo_button_normal"
+            android:contentDescription="@string/addpeople" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/input_bg"
+            android:ems="10"
+            android:hint="@string/name_group_hint"
+            android:textColor="@color/home_bg_color" >
+        </EditText>
+    </LinearLayout>
+
+    <com.ridenow.adapter.ContactsCompletionView
+        android:id="@+id/add_user_group"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ic_linear___"
+        android:background="@drawable/textbox_bg"
+        android:ems="10"
+        android:hint="@string/addpeople"
+        android:textColor="@color/home_bg_color" />
+
+
+        <ListView
+            android:id="@+id/ic_newtworkgroup_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/add_user_group"
+            android:cacheColorHint="@android:color/transparent"
+            android:listSelector="@android:drawable/list_selector_background" >
+        </ListView>
+  
+
+</RelativeLayout>

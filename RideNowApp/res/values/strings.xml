@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RideNow</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="fb_app_id">767492613282097</string>
+
+    <!-- Dummy text -->
+    <string name="txt_dummy">Lorem Ipsum</string>
+    <!-- Login Screen -->
+
+    <string name="fb_signup">Sign Up with Facebook</string>
+    <string name="google_signup">Sign Up with Google</string>
+    <string name="or">or</string>
+    <string name="header_color">#0F7373</string>
+    <string name="login">Log In</string>
+    <string name="sign_up">Sign up</string>
+
+    <!-- Web Service -->
+    <string name="server_busy">Check your Internet Connection.</string>
+    <string name="no_internet">Server is busy. Please Try Again.</string>
+
+    <!-- SignUp Screen -->
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="name_field_empty">Please enter name.</string>
+    <string name="email_field_empty">Please enter email.</string>
+    <string name="phone_field_empty">Please enter phone.</string>
+    <string name="password_field_empty">Please enter password.</string>
+    <string name="gender_field_empty">Please select gender.</string>
+    <string name="take_photo">Take a Photo</string>
+    <string name="add_from_gallery">Add From Gallery</string>
+    <string name="profile_not_crop_image">Can not find image crop app.</string>
+    <string name="email_not_valid">Email not valid.</string>
+    <string name="play_services_error">Google Play services is not available.  This application will close.</string>
+    <string name="close">Close</string>
+
+    <!-- Login Screen -->
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+
+    <!-- Verification Code -->
+    <string name="send">Send</string>
+    <string name="mobile">Mobile</string>
+    <string name="no">+91</string>
+    <string name="verify_text">Please enter your number for verification</string>
+
+    <!-- Dual SignIn Sceen -->
+    <string name="or_text">OR</string>
+
+    <!-- TabBar Text -->
+    <string name="search">Search</string>
+    <string name="ride">Ride</string>
+    <string name="profile">Profile</string>
+    <string name="updates">Updates</string>
+
+    <!-- Create Ride Text -->
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="offer">Offer</string>
+    <string name="request">Request</string>
+    <string name="privacy_public_">Public</string>
+    <string name="privacy_private">Private</string>
+    <string name="title_activity_ride">RideActivity</string>
+    <string name="create_ride">Create Ride</string>
+    <string name="from_field_empty">Please enter "From" location</string>
+    <string name="to_field_empty">Please enter "TO" location</string>
+    <string name="date_field_empty">Please select a date</string>
+    <string name="time_field_empty">Please select a time</string>
+    <string name="seats_field_empty">Please enter available seats</string>
+    <string name="privacy_field_empty">Please select mode</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+
+    <!-- Profile Screen -->
+    <string name="wish_list">\nWISHLIST</string>
+    <string name="journal">\nJOURNAL</string>
+    <string name="network">\nNETWORK</string>
+    <string name="places">\nPLACES</string>
+    <string name="edit_profile"> Edit Profile</string>
+
+    <!-- WishList -->
+    <string name="trip_place">Destination</string>
+    <string name="trip_title">Title</string>
+    <string name="trip_start_date">Start Date</string>
+    <string name="trip_end_date">End Date</string>
+    <string name="trip_description">Description</string>
+    <string name="trip_places_tags">Add Tags</string>
+    <string name="trip_invire_friends">Add Friends</string>
+    <string name="done">Done</string>
+    <!-- MyNetwork -->
+    <string name="all">All</string>
+    <string name="friends">Friends</string>
+    <string name="family">Family</string>
+    <string name="office">Office</string>
+    <string name="addpeople">Add People to the group</string>
+    <string name="name_group_hint">Name (ex:BFFs)</string>
+    <string name="createGroup">Create Group</string>
+    <string name="camera">Take Photo</string>
+    <string name="gallery">Choose Photo</string>
+    <string name="comingsoon">Coming Soon</string>
+    <string name="mynetwork">MyNetwork</string>
+    
+    <string name="action_label_refresh">Refresh</string>
+    <string name="action_label_search">Search</string>
+    <string name="action_label_both">Both</string>
+    <string name="action_label_text">Text</string>
+    <string name="action_label_logo">Logo</string>
+    <string name="action_label_up">Up</string>
+    <string name="action_label_nav_tabs">Tabs</string>
+    <string name="action_label_nav_drop_down">List</string>
+      <string name="action_label_nav_label">Label</string>
+    <string name="action_label_nav">Navigation Mode</string>
+
+</resources>

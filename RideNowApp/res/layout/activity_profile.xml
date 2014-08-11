@@ -1,0 +1,129 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" 
+    android:background="@color/base_color_lite"
+    android:orientation="vertical">
+
+    
+
+   <LinearLayout 
+       android:id="@+id/layout_UserProfile"
+       android:layout_width="match_parent"
+    android:layout_height="@dimen/profile_bg_hight"
+    android:background="@color/base_color_dark"
+       android:gravity="center"
+       android:orientation="vertical"
+       android:layout_marginTop="@dimen/padding_samll"
+       android:layout_marginBottom="@dimen/padding_samll"
+       >
+       <com.ridenow.ui.CircularImageView
+                android:id="@+id/riderProfileImageViewHOG"
+                android:layout_width="@dimen/profile_image"
+                android:layout_height="@dimen/profile_image"
+                
+                android:background="@drawable/profile" 
+                android:scaleType="center">
+            </com.ridenow.ui.CircularImageView>
+      
+       <TextView 
+           android:id="@+id/txtUserName"
+           android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:textStyle="bold"
+android:textSize="@dimen/tab_text_size"
+android:text="@string/txt_dummy"           
+           />
+       <TextView 
+           android:id="@+id/txtUserdetails"
+           android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:textStyle="bold"
+android:textSize="@dimen/text_small"
+android:text="@string/txt_dummy"           
+           />
+       <TextView 
+           android:id="@+id/txtUserLocation"
+           android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:textStyle="bold"
+android:textSize="@dimen/text_small"
+android:text="@string/txt_dummy"           
+           />
+       <Button 
+           android:layout_width="wrap_content"
+           
+           android:layout_height="30dp"
+           android:text="@string/edit_profile"
+           android:textSize="@dimen/text_mid"
+           android:textStyle="bold"
+           android:padding="@dimen/padding_samll"
+           android:layout_marginTop="@dimen/padding_mid"
+           android:textColor="@color/base_color_dark"
+           android:background="@color/base_color_lite"
+           />
+   </LinearLayout>
+   
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:weightSum="4"
+        android:gravity="center_vertical"
+        android:background="@android:color/darker_gray">
+       
+    <Button android:id="@+id/btn_Wishlist"
+           android:layout_width="0dp"
+           android:layout_height="30dp" 
+           android:layout_weight="1"
+          android:layout_margin="@dimen/Padding_verySmall"
+           android:text="@string/wish_list"
+           android:textSize="@dimen/text_mid"
+           android:textColor="@color/base_color_dark"
+           android:background="@color/base_color_lite"
+           />
+    <Button android:id="@+id/btn_Journal"
+           android:layout_width="0dp"
+           android:layout_height="30dp" 
+           android:layout_weight="1"
+            android:layout_margin="@dimen/Padding_verySmall"
+           android:text="@string/journal"
+           android:textSize="@dimen/text_mid"
+           android:textColor="@color/base_color_dark"
+           
+           android:background="@color/base_color_lite"
+           />
+    <Button android:id="@+id/btn_Network"
+           android:layout_width="0dp"
+           android:layout_height="30dp" 
+           android:layout_weight="1"
+            android:layout_margin="@dimen/Padding_verySmall"
+           android:text="@string/network"
+           android:textSize="@dimen/text_mid"
+           android:textColor="@color/base_color_dark"
+           
+           android:background="@color/base_color_lite"
+           />
+    <Button android:id="@+id/btn_Places"
+           android:layout_width="0dp"
+           android:layout_height="30dp" 
+           android:layout_weight="1"
+             android:layout_margin="@dimen/Padding_verySmall"
+           android:text="@string/places"
+           android:textSize="@dimen/text_mid"
+           android:textColor="@color/base_color_dark"
+           
+           android:background="@color/base_color_lite"
+           />
+    </LinearLayout>
+    
+<ListView 
+    android:id="@+id/list_profile_subItems"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/padding_large"
+    android:layout_marginRight="@dimen/padding_large"
+    android:layout_marginTop="@dimen/padding_mid"
+    ></ListView>
+
+</LinearLayout>

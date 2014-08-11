@@ -1,0 +1,5 @@
+Facebook Hash Key command for windows -
+
+C:\Program Files (x86)\Java\jre7\bin>keytool -exportcert -alias androiddebugkey
+-keystore "C:\Users\s.pooja\.android\debug.keystore" | "C:\OpenSSL\bin\openssl"
+sha1 -binary |"C:\OpenSSL\bin\openssl" base64
